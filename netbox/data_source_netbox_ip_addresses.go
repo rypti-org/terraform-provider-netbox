@@ -48,6 +48,10 @@ func dataSourceNetboxIPAddresses() *schema.Resource {
 							Type:     schema.TypeInt,
 							Computed: true,
 						},
+						"assigned_id": {
+							Type:     schema.TypeInt,
+							Computed: true,
+						},
 						"description": {
 							Type:     schema.TypeString,
 							Computed: true,
